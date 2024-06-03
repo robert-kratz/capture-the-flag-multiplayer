@@ -1,0 +1,165 @@
+/**
+ * @author benjamin.sander, gabriel.victor.arthur.himmelein, virgil.baclanov
+ */
+
+.hero-container{
+-fx-background-image:url(../icons/classic_background.png);
+-fx-background-repeat:no-repeat;
+-fx-background-size: cover;
+-fx-height:100%;
+-fx-background-position: center center;
+}
+
+.hero-container-zombie{
+    -fx-background-image:url(../icons/zombie_background.png);
+    -fx-background-repeat:no-repeat;
+    -fx-background-size: cover;
+    -fx-width:100%;
+    -fx-background-position: center center;
+}
+
+.hero-container-wildwest{
+    -fx-background-image:url(../icons/west_background.png);
+    -fx-background-repeat:no-repeat;
+    -fx-background-size: cover;
+    -fx-width:100%;
+    -fx-background-position: center center;
+}
+
+.hover-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-text-fill: #FFFFFF;
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s;
+}
+
+.hover-button:hover {
+    -fx-background-color: linear-gradient(rgba(255,255,255, 0.25), rgba(255,255,255,0.4));
+    /*
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+     */
+}
+
+.login-box-container{
+-fx-background-color: linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255,0.2));
+-fx-background-radius: 30;
+}
+
+.zombie-theme-board-container{
+    -fx-background-color: linear-gradient(rgba(52,144,0, 0.9), rgba(36,99,0,0.9));
+    -fx-background-radius: 20;
+}
+
+.wildwest-theme-board-container{
+    -fx-background-color: linear-gradient(rgba(91,41,25,0.9) 0%, rgba(189,134,38,0.9) 100%);
+    -fx-background-radius: 20;
+}
+
+.button-game-view{
+    -fx-background-color: linear-gradient(rgba(91,41,25,1) 0%, rgba(189,134,38,1) 100%);
+    -fx-background-radius: 30;
+}
+
+.button-game-view:hover{
+    -fx-background-color: linear-gradient(rgba(100,50,60,1) 0%, rgba(190,140,60,1) 100%);
+}
+
+.input-field{
+    -fx-text-fill: #0C3249;
+    -fx-background-color: rgba(255,255,255, 1);
+    -fx-background-radius: 20em;
+}
+
+.cta-button{
+    -fx-background-color: #0C3249;
+    -fx-background-radius: 20em;
+}
+
+.cta-button-transparent{
+-fx-background-color: rgba(255, 255, 255, 0);
+    -fx-text-fill: #bfbfbf;
+}
+
+.cta-button-transparent:hover{
+-fx-text-fill: #ffffff;
+
+}
+
+.main-menu-button{
+    -fx-background-radius: 20em;
+    -fx-background-color: linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255,0.3));
+}
+
+.main-menu-button:hover{
+    -fx-background-color: linear-gradient(rgba(237, 45, 49, 0.3), rgba(237, 45, 49, 1.0));
+}
+
+/* Benni_1 */
+.code-button{
+    -fx-background-color: #0C3249;
+    -fx-background-radius: 1em;
+}
+
+/* Gabriel_1 */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical, .scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+    -fx-max-width: 0;
+    -fx-pref-width: 0;
+    -fx-min-width: 0;
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-family: "Eras Light ITC";
+    -fx-font-size: 21px;
+}
+
+/*
+change color of the scroll bar in the list view
+ */
+.list-view .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.list-view .list-cell:selected {
+    -fx-text-fill: rgba(237, 45, 49, 1.0);
+}
+
+.scroll-pane .scroll-bar *.track {
+    -fx-background-color: transparent;
+}
+
+.text-field {
+    -fx-border-color: white;
+    -fx-border-radius: 20;
+    -fx-background-color: transparent;
+    -fx-font-size: 14px;
+    -fx-pref-height: 20px;
+    -fx-text-fill: white;
+}
+
+
+.radio-button .dot {
+    -fx-scale-x: 0.9; /* Scale down the dot to half size horizontally */
+    -fx-scale-y: 0.9; /* Scale down the dot to half size vertically */
+}
+
+.radio-button {
+    -fx-scale-x: 0.9; /* Scale down the entire radio button horizontally */
+    -fx-scale-y: 0.9; /* Scale down the entire radio button vertically */
+}

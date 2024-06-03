@@ -1,0 +1,106 @@
+{
+  "gridSize": [10, 10],
+  "teams": 2,
+  "flags": 1,
+  "blocks": 0,
+  "pieces": [
+    {
+      "type": "Pawn",
+      "attackPower": 1,
+      "count": 10,
+      "movement": {
+        "directions": {
+          "left": 1,
+          "right": 1,
+          "up": 1,
+          "down": 1,
+          "upLeft": 0,
+          "upRight": 0,
+          "downLeft": 0,
+          "downRight": 0
+        }
+      }
+    },
+    {
+      "type": "Rook",
+      "attackPower": 4,
+      "count": 2,
+      "movement": {
+        "directions": {
+          "left": 2,
+          "right": 2,
+          "up": 2,
+          "down": 2,
+          "upLeft": 0,
+          "upRight": 0,
+          "downLeft": 0,
+          "downRight": 0
+        }
+      }
+    },
+    {
+      "type": "Knight",
+      "attackPower": 3,
+      "count": 2,
+      "movement": {
+        "shape": {
+          "type": "lshape"
+        }
+      }
+    },
+    {
+      "type": "Bishop",
+      "attackPower": 3,
+      "count": 2,
+      "movement": {
+        "directions": {
+          "left": 0,
+          "right": 0,
+          "up": 0,
+          "down": 0,
+          "upLeft": 2,
+          "upRight": 2,
+          "downLeft": 2,
+          "downRight": 2
+        }
+      }
+    },
+    {
+      "type": "Queen",
+      "attackPower": 5,
+      "count": 1,
+      "movement": {
+        "directions": {
+          "left": 2,
+          "right": 2,
+          "up": 2,
+          "down": 2,
+          "upLeft": 2,
+          "upRight": 2,
+          "downLeft": 2,
+          "downRight": 2
+        }
+      }
+    },
+    {
+      "type": "King",
+      "attackPower": 5,
+      "count": 1,
+      "movement": {
+        "directions": {
+          "left": 1,
+          "right": 1,
+          "up": 1,
+          "down": 1,
+          "upLeft": 1,
+          "upRight": 1,
+          "downLeft": 1,
+          "downRight": 1
+        }
+      }
+    }
+  ],
+  "placement": "symmetrical",
+  "totalTimeLimitInSeconds": -1,
+  "moveTimeLimitInSeconds": -1
+}

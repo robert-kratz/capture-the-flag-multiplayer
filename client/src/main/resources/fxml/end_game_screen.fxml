@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="hero-container" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.cfp1.client.gui.EndGameController">
+  <children>
+    <GridPane alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <columnConstraints>
+        <ColumnConstraints hgrow="ALWAYS" maxWidth="394.0" minWidth="10.0" percentWidth="20.0" prefWidth="99.60003662109375" />
+        <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" percentWidth="60.0" />
+        <ColumnConstraints hgrow="ALWAYS" maxWidth="225.199951171875" minWidth="10.0" percentWidth="20.0" prefWidth="89.79997558593749" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      </rowConstraints>
+         <children>
+            <GridPane GridPane.columnIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="0.0" percentHeight="15.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+                  <RowConstraints minHeight="0.0" percentHeight="10.0" valignment="CENTER" vgrow="ALWAYS" />
+                <RowConstraints minHeight="0.0" percentHeight="65.0" valignment="CENTER" vgrow="ALWAYS" />
+                  <RowConstraints minHeight="10.0" percentHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+              </rowConstraints>
+               <children>
+                  <Text fx:id="endResultText" fill="#ff4d4d" strokeType="OUTSIDE" strokeWidth="0.0" text="You Lost!" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Eras Bold ITC" size="21.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="endEloText" fill="#ff4040" strokeType="OUTSIDE" strokeWidth="0.0" text="-30 ELO" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Eras Bold ITC" size="21.0" />
+                     </font>
+                  </Text>
+                  <GridPane GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="0.0" percentHeight="20.0" valignment="CENTER" vgrow="ALWAYS" />
+                      <RowConstraints minHeight="0.0" percentHeight="15.0" valignment="CENTER" vgrow="ALWAYS" />
+                        <RowConstraints minHeight="0.0" percentHeight="15.0" valignment="CENTER" vgrow="ALWAYS" />
+                        <RowConstraints minHeight="0.0" percentHeight="15.0" valignment="CENTER" vgrow="ALWAYS" />
+                      <RowConstraints minHeight="0.0" percentHeight="15.0" valignment="CENTER" vgrow="ALWAYS" />
+                        <RowConstraints minHeight="0.0" percentHeight="20.0" valignment="CENTER" vgrow="ALWAYS" />
+                    </rowConstraints>
+                     <children>
+                        <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Winners" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Eras Bold ITC" size="21.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </GridPane>
+                        <Text fx:id="endWinners1Text" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;winners1&gt;" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                           <font>
+                              <Font name="Eras Light ITC" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="endWinners2Text" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;winners2&gt;" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                           <font>
+                              <Font name="Eras Light ITC" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="endWinners3Text" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;winners3&gt;" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                           <font>
+                              <Font name="Eras Light ITC" size="21.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="endWinners4Text" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;winners4&gt;" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                           <font>
+                              <Font name="Eras Light ITC" size="21.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </GridPane>
+                  <GridPane GridPane.rowIndex="3">
+                    <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="0.0" percentWidth="25.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="0.0" percentWidth="50.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="0.0" percentWidth="25.0" />
+                    </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="0.0" percentHeight="100.0" valignment="CENTER" vgrow="ALWAYS" />
+                     </rowConstraints>
+                     <children>
+                        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#navigateToMainMenu" text="Back to main menu" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1">
+                           <font>
+                              <Font name="Eras Bold ITC" size="21.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="login-box-container" />
+                              <String fx:value="hover-button" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                  </GridPane>
+               </children>
+            </GridPane>
+         </children>
+    </GridPane>
+  </children>
+</AnchorPane>

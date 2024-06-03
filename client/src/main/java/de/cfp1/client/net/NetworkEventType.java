@@ -1,0 +1,24 @@
+package de.cfp1.client.net;
+
+/**
+ * @author robert.kratz
+ */
+
+public enum NetworkEventType {
+  LOGIN,
+  TOKEN_REFRESHED,
+  SESSION_EXPIRED,
+  LOGOUT,
+  SIGNUP,
+  SIGNUP_AS_GUEST,
+  USER_UPDATE,
+  DELETE_USER,
+  GUEST_UPGRADE_ACCOUNT,
+  MAP_CREATED,
+  LOADED_MAPS,
+  UPDATE_MAP,
+  DELETE_MAP,
+  FETCH_PUBLIC_MAPS,
+  FETCH_USER_STATS,
+  FETCH_LEADERBOARD,
+}

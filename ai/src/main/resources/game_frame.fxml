@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" styleClass="hero-container" stylesheets="@./style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.cfp1.ai.gui.GameAIController">
+   <children>
+      <GridPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="0.0" percentWidth="30.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="0.0" percentWidth="40.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="0.0" percentWidth="30.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="0.0" percentHeight="20.0" valignment="CENTER" vgrow="ALWAYS" />
+          <RowConstraints minHeight="0.0" percentHeight="60.0" valignment="CENTER" vgrow="ALWAYS" />
+          <RowConstraints minHeight="0.0" percentHeight="20.0" valignment="CENTER" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="usernameJoinedLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="&lt;username&gt;" textAlignment="CENTER" textFill="WHITE" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Eras Light ITC" size="14.0" />
+                     </font></Label>
+                  <Label fx:id="joinCodeLabel" alignment="TOP_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="&lt;gamecode&gt;" textAlignment="CENTER" textFill="WHITE" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Eras Bold ITC" size="14.0" />
+                     </font></Label>
+               </children>
+            </GridPane>
+            <GridPane GridPane.columnIndex="1" GridPane.rowIndex="1">
+              <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="0.0" percentHeight="50.0" valignment="CENTER" vgrow="ALWAYS" />
+                <RowConstraints minHeight="0.0" percentHeight="50.0" valignment="CENTER" vgrow="ALWAYS" />
+              </rowConstraints>
+               <children>
+                  <Label alignment="BOTTOM_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="Difficulty" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Eras Light ITC" size="21.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                     </GridPane.margin></Label>
+                  <ToggleButton fx:id="easyDifficultyButton" onAction="#changeDifficulty" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" selected="true" stylesheets="@./style.css" text="Easy" textFill="WHITE" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Eras Bold ITC" size="21.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="cta-button" />
+                        <String fx:value="hover-button" />
+                     </styleClass>
+                     <GridPane.margin>
+                        <Insets bottom="140.0" left="10.0" right="10.0" />
+                     </GridPane.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="difficulty" />
+                     </toggleGroup>
+                  </ToggleButton>
+                  <ToggleButton fx:id="mediumDifficultyButton" onAction="#changeDifficulty" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" stylesheets="@./style.css" text="Medium" textFill="WHITE" toggleGroup="$difficulty" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Eras Bold ITC" size="21.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="cta-button" />
+                        <String fx:value="hover-button" />
+                     </styleClass>
+                     <GridPane.margin>
+                        <Insets bottom="140.0" left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </ToggleButton>
+                  <ToggleButton fx:id="hardDifficultyButton" onAction="#changeDifficulty" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" stylesheets="@./style.css" text="Hard" textFill="WHITE" toggleGroup="$difficulty" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Eras Bold ITC" size="21.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="cta-button" />
+                        <String fx:value="hover-button" />
+                     </styleClass>
+                     <GridPane.margin>
+                        <Insets bottom="140.0" left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </ToggleButton>
+               </children>
+            </GridPane>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#giveUp" text="Give Up" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font name="Eras Light ITC" size="21.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="30.0" />
+               </GridPane.margin>
+               <styleClass>
+                  <String fx:value="cta-button" />
+                  <String fx:value="hover-button" />
+               </styleClass></Button>
+            <GridPane GridPane.columnIndex="2" GridPane.rowIndex="2">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="moveTimeAILabel" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="&lt;moveTime&gt;" textFill="WHITE" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Eras Bold ITC" size="14.0" />
+                     </font></Label>
+                  <Label fx:id="gameTimeAILabel" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="&lt;gameTime&gt;" textFill="WHITE" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Eras Bold ITC" size="14.0" />
+                     </font></Label>
+               </children>
+            </GridPane>
+            <Label fx:id="errorLabelJoined" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="&lt;error&gt;" textAlignment="CENTER" textFill="#ff7a7a" visible="false" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Eras Bold ITC" size="14.0" />
+               </font></Label>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

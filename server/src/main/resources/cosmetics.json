@@ -1,0 +1,94 @@
+{
+  "cosmetics": [
+    {
+      "id": "PIXEL_QUEEN",
+      "name": "Pixel Queen",
+      "price": 10.00,
+      "rarity": 0.1,
+      "image": "rescources/images/pixel_queen.jpg",
+      "description": "Pixel Queen is a ",
+      "category": "Characters"
+    },
+    {
+      "id": "ICE_DRAGON",
+      "name": "Ice Dragon",
+      "price": 10.00,
+      "rarity": 0.1,
+      "image": "rescources/images/ice_dragon.jpg",
+      "description": "Ice Dragon is a ",
+      "category": "Characters"
+    },
+    {
+      "id": "MYSTICAL_WIZARD",
+      "name": "Mystical Wizard",
+      "price": 10.00,
+      "rarity": 0.1,
+      "image": "rescources/images/mystical_wizard.jpg",
+      "description": "Mystical Wizard is a ",
+      "category": "Characters"
+    },
+    {
+      "id": "EMOTE_FIREWORKS",
+      "name": "Emote Fireworks",
+      "price": 10.00,
+      "rarity": 0.2,
+      "image": "rescources/images/emote_fireworks.jpg",
+      "description": "Emote Fireworks is a ",
+      "category": "Emotes"
+    },
+    {
+      "id": "EMOTE_GO_GO_GO",
+      "name": "Emote Cheer",
+      "price": 10.00,
+      "rarity": 0.2,
+      "image": "rescources/images/emote_cheer.jpg",
+      "description": "Emote Cheer is a ",
+      "category": "Emotes"
+    },
+    {
+      "id": "EMOTE_ANGRY",
+      "name": "Emote Angry",
+      "price": 10.00,
+      "rarity": 0.2,
+      "image": "rescources/images/emote_angry.jpg",
+      "description": "Emote Angry is a ",
+      "category": "Emotes"
+    },
+    {
+      "id": "NAMETAG_FIRE",
+      "name": "Nametag Fire",
+      "price": 10.00,
+      "rarity": 0.05,
+      "image": "rescources/images/nametag_fire.jpg",
+      "description": "Nametag Fire is a ",
+      "category": "Nametags"
+    },
+    {
+      "id": "NAMETAG_ICE",
+      "name": "Nametag Ice",
+      "price": 10.00,
+      "image": "rescources/images/nametag_ice.jpg",
+      "rarity": 0.05,
+      "description": "Nametag Ice is a ",
+      "category": "Nametags"
+    },
+    {
+      "id": "PROFILE_ICON_WIZARD",
+      "name": "Profile Icon Wizard",
+      "price": 10.00,
+      "image": "rescources/images/profile_icon_wizard.jpg",
+      "rarity": 0.1,
+      "description": "Profile Icon Wizard is a ",
+      "category": "Profile Icons"
+    },
+    {
+      "id": "PROFILE_ICON_ICE_DRAGON",
+      "name": "Profile Icon Ice Dragon",
+      "price": 10.00,
+      "image": "rescources/images/ice_dragon.jpg",
+      "rarity": 0.1,
+      "description": "Profile Icon Ice Dragon is a ",
+      "category": "Profile Icons"
+    }
+  ]
+}
