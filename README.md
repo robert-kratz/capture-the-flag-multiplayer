@@ -9,7 +9,6 @@ This project is a Capture The Flag (CTF) game developed for the course "Software
 - Benjamin Sander [Linkedin](https://www.linkedin.com/in/benjamin-sander-17b398289/) (benjamin.sander@students.uni-mannheim.de)
 - Joel Bakirel (joel.bakirel@students.uni-mannheim.de)
 - Juan Steppacher (juan.steppacher@students.uni-mannheim.de)
-- Christopher Issa (christopher.issa@students.uni-mannheim.de)
 - Gabriel Himmelein [Website](https://gabrielhimmelein.com) (gabriel.victor.arthur.himmelein@students.uni-mannheim.de)
 
 ## Index
