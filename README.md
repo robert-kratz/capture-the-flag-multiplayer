@@ -9,7 +9,7 @@ You can take a look at the preview Video on [Yotube](https://www.youtube.com/wat
 - Virgil Baclanov [https://itsgil.com](https://itsgil.com) (virgil.baclanov@students.uni-mannheim.de)
 - Robert J. Kratz [https://rjks.us](https://rjks.us) (robert.kratz@students.uni-mannheim.de)
 - Benjamin Sander [Linkedin](https://www.linkedin.com/in/benjamin-sander-17b398289/) (benjamin.sander@students.uni-mannheim.de)
-- Joel Bakirel (joel.bakirel@students.uni-mannheim.de)
+- Joel Bakirel (joel.bakirel@students.uni-mannheim.de) 
 - Juan Steppacher (juan.steppacher@students.uni-mannheim.de)
 - Gabriel Himmelein [Website](https://gabrielhimmelein.com) (gabriel.victor.arthur.himmelein@students.uni-mannheim.de)
 
