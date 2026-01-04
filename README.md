@@ -2,7 +2,7 @@
 
 This project is a Capture The Flag (CTF) game developed for the course "Software Engineering" at the University of Mannheim. The game is divided into three components: the server, the client and the ai client. The server is responsible for managing the game, the client is responsible for the user interface and the ai client is responsible for the artificial intelligence of the game.
 
-You can take a look at the preview Video on [Yotube](https://www.youtube.com/watch?v=7C8xyCcURro).
+You can take a look at the preview Video on [Youtube](https://www.youtube.com/watch?v=7C8xyCcURro).
 
 ## Authors and acknowledgment
 
@@ -11,7 +11,7 @@ You can take a look at the preview Video on [Yotube](https://www.youtube.com/wat
 - Benjamin Sander [Linkedin](https://www.linkedin.com/in/benjamin-sander-17b398289/) (benjamin.sander@students.uni-mannheim.de)
 - Joel Bakirel (joel.bakirel@students.uni-mannheim.de) 
 - Juan Steppacher (juan.steppacher@students.uni-mannheim.de)
-- Gabriel Himmelein [Website](https://gabrielhimmelein.com) (gabriel.victor.arthur.himmelein@students.uni-mannheim.de)
+- Gabriel Himmelein [Website](https://gabrielhimmelein.com) (mail@gabrielhimmelein.com)
 
 ## Index
 
